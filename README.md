@@ -1,4 +1,4 @@
-# Read DHT22 values and exposes them via HTTP
+# Read Meross Smart Plug values and exposes them via HTTP
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/luisgs/)
 
