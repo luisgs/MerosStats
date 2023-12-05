@@ -45,10 +45,10 @@ This repository includes a Dockerfile with all required info.
 
 How to run it:
 ```sh
-sudo docker run --rm meross
+[sudo] docker run --rm meross
 ```
 OR
 ```sh
-sudo docker run --rm -e EMAIL=email.com -e PASSWORD=password 0.0.0.0:8040:8000 meross
+[sudo] docker run --rm -e EMAIL=email.com -e PASSWORD=password 0.0.0.0:8040:8000 meross
 ```
 
