@@ -10,9 +10,6 @@ from meross_iot.manager import MerossManager
 # http server to provide tempand humid data via http
 from prometheus_client import Gauge, start_http_server
 
-# Thread lib. Each SmartPlug web server will be in separete thread.
-from threading import Thread
-
 # Setup logging to the Systemd Journal
 formatter = "%(asctime)s;%(levelname)s;%(message)s"
 logging.basicConfig(format=formatter, stream=sys.stdout, level=logging.DEBUG)
