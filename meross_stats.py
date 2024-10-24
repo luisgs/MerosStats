@@ -20,7 +20,7 @@ try:
     PASSWORD = os.environ.get('MEROSS_PASSWORD') or "email"
     DEVICE_NAME = os.environ.get('DEVICE_NAME') or "device"
     # DEFAULT VARS
-    METRICS_PORT = os.environ.get('METRICS_PORT') or 8000
+    METRICS_PORT = os.environ.get('METRICS_PORT') or 8040
     READ_INTERVAL = os.environ.get('READ_INTERVAL') or 60
 
     logging.info("Variables:" + EMAIL + " password:" + PASSWORD)
